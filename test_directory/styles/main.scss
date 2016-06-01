@@ -1,0 +1,53 @@
+$font-stack:     Helvetica, sans-serif;
+$primary-color1: black;
+$primary-color2: yellow;
+$grn:            green;
+
+
+*{
+background-color: darkblue;
+}
+ 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+ 
+*{
+margin: 0;
+padding: 0;
+}
+ 
+@import 'variables';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color1;
+}
+h1 {
+  color: $primary-color2;
+}
+
+.menu {
+	display: block;
+border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+@include border-radius(50%);
+
+	li {
+
+		float: left;
+		list-style: none;
+		padding: 30px;
+		a {
+			color: $grn;
+			}
+	}
+	
+}
+

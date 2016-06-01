@@ -1,0 +1,35 @@
+* {
+  background-color: darkblue; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  background-color: darkblue; }
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: black; }
+
+h1 {
+  color: yellow; }
+
+.menu {
+  display: block;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%; }
+  .menu li {
+    float: left;
+    list-style: none;
+    padding: 30px; }
+    .menu li a {
+      color: green; }
+
+/*# sourceMappingURL=main.css.map */

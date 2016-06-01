@@ -1,0 +1,30 @@
+@import 'variables';
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color1;
+}
+h1 {
+  color: $primary-color2;
+}
+
+.menu {
+	display: block;
+border: 2px solid black;
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+@include border-radius(50%);
+
+	li {
+
+		float: left;
+		list-style: none;
+		padding: 30px;
+		a {
+			color: $grn;
+			}
+	}
+	
+}
+
